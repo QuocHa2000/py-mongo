@@ -53,9 +53,6 @@ def get_flask_app(config: dict = None) -> app.Flask:
         # init api and routes
         api = Api(app=flask_app)
 
-        # # Init db
-        # db = MongoEngine(app=flask_app)
-
         # # Init jwt manager
         # jwt = JWTManager(app=flask_app)
 
